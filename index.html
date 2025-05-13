@@ -166,6 +166,15 @@
 </section>
 
 <footer>
+  <div id="email-container"></div>
+  <script>
+    const user = "geek_nutmeg710";
+    const domain = "simplelogin.com";
+    const fullEmail = `${user}@${domain}`;
+    const container = document.getElementById("email-container");
+
+    container.innerHTML = `<a class="email-link" href="mailto:${fullEmail}">contact us</a>`;
+  </script>
   &copy; 2025 Clashico.com — All rights reserved. | Built with ❤️ for football fans worldwide.
 </footer>
 
